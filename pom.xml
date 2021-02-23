@@ -18,7 +18,7 @@
 
 		<repository>
 			<id>Maven-release</id>
-			<url>http://localhost:8081/nexus/content/repositories/Maven-release/</url>
+			<url>http://35.154.151.76:8081/#admin/repository/repositories:maven-code</url>
 		</repository>
 		<snapshotRepository>
 			<id>Maven-snapshot</id>
