@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.maaven.practice</groupId>
-  <artifactId>n</artifactId>
+  <artifactId>myapp</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
   
@@ -17,12 +17,13 @@
   <distributionManagement>
 
 		<repository>
-			<id>Maven-release</id>
-			<url>http://13.232.65.246:8081/#admin/repository/repositories:maven-re</url>
+			<id>MAVEN-RELEASE</id>
+			<url>http://13.232.65.246:8081/#admin/repository/repositories:maven-code</url>
 		</repository>
 		<snapshotRepository>
-			<id>Maven-snapshot</id>
+			<id>MAVEN-SNAPSHOT</id>
 			<url>http://13.232.65.246:8081/#admin/repository/repositories:mavem-snap</url>
 		</snapshotRepository>		
   </distributionManagement>
 </project>
+
